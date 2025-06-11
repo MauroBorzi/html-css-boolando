@@ -15,6 +15,7 @@ header {
   top: 0;
   width: 100%;
   z-index: 1;
+  box-shadow: 0 0 10px 0 black;
 }
 
 main {
@@ -122,4 +123,20 @@ ul li {
   position: absolute;
   top: 8px;
   right: 0;
+}
+
+.front-image {
+  display: block;
+}
+
+.back-image {
+  display: none;
+}
+
+.card:hover .front-image {
+  display: none;
+}
+
+.card:hover .back-image {
+  display: block;
 }
