@@ -37,7 +37,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   column-gap: 20px;
-  row-gap: 80px;
+  row-gap: 60px;
 }
 
 ul li {
@@ -76,13 +76,22 @@ ul li {
   background-color: #008000;
 }
 
+.bg-white {
+  background-color: white;
+}
+
+.color-red {
+  color: #ff0000;
+  font-weight: bold;
+}
+
 .discount {
   padding: 5px 8px;
   font-size: 0.7em;
   color: white;
   position: absolute;
   left: 0;
-  bottom: 50px;
+  bottom: 93px;
 }
 
 .eco {
@@ -90,7 +99,7 @@ ul li {
   font-size: 0.7em;
   color: white;
   position: absolute;
-  bottom: 50px;
+  bottom: 93px;
   right: 257px;
 }
 
@@ -99,6 +108,18 @@ ul li {
   font-size: 0.7em;
   color: white;
   position: absolute;
-  bottom: 50px;
+  bottom: 93px;
   left: 0;
+}
+
+.dimencion-text {
+  font-size: 0.7em;
+}
+
+.heart {
+  padding: 10px 10px;
+  color: black;
+  position: absolute;
+  top: 8px;
+  right: 0;
 }
