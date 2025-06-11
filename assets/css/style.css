@@ -11,6 +11,7 @@ body {
 header {
   background-color: #ff6900;
   color: white;
+  padding: 18px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -23,14 +24,27 @@ main {
 }
 
 footer {
-  background-color: ;
+  background-color: #1a1a1a;
+  color: white;
+  margin-top: 50px;
+  font-size: 0.7em;
 }
 
 .container-h {
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+}
+
+.container-f {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
 }
 
 .container {
@@ -45,12 +59,11 @@ footer {
   row-gap: 60px;
 }
 
-ul li {
-  list-style-type: none;
-  justify-content: center;
-}
-
 /* utility */
+
+.container-h div p {
+  font-weight: bold;
+}
 
 .justify-content-center {
   justify-content: center;
@@ -142,4 +155,13 @@ ul li {
 
 .card:hover .back-image {
   display: block;
+}
+
+.container-f h3 {
+  padding-bottom: 7px;
+}
+
+i {
+  padding-top: 7px;
+  margin-right: 5px;
 }
