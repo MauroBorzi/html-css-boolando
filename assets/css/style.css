@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #ff6900;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+
+main {
+  padding-top: 50px;
+}
+
 .container-h {
   margin: 0 auto;
   display: flex;
@@ -11,8 +26,13 @@
   align-items: center;
 }
 
-header {
-  color: white;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
 }
 
 ul li {
@@ -23,10 +43,10 @@ ul li {
 
 /* utility */
 
-.bg-orange {
-  background-color: #ff6900;
-}
-
 .img {
   max-width: 120px;
+}
+
+.col33 {
+  width: calc(100% / 3);
 }
