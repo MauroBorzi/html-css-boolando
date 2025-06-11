@@ -141,6 +141,14 @@ footer {
   right: 0;
 }
 
+.heart-red {
+  padding: 10px 10px;
+  color: red;
+  position: absolute;
+  top: 8px;
+  right: 0;
+}
+
 .front-image {
   display: block;
 }
