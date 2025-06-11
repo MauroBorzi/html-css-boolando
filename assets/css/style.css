@@ -43,10 +43,29 @@ ul li {
 
 /* utility */
 
+.justify-content-center {
+  justify-content: center;
+}
+
 .img {
   max-width: 120px;
 }
 
 .col33 {
-  width: calc(100% / 3);
+  width: 400px;
+}
+
+
+
+
+.b-black {
+  border: 1px solid black;
+}
+
+.h-500 {
+  height: 500px;
+}
+
+.bg-red {
+  background-color: red;
 }
