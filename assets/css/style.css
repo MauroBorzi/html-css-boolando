@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-h {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header {
+  color: white;
+}
+
+ul li {
+  list-style-type: none;
+  font-weight: bold;
+  justify-content: center;
+}
+
+/* utility */
+
+.bg-orange {
+  background-color: #ff6900;
+}
+
+.img {
+  max-width: 120px;
+}
