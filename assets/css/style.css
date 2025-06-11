@@ -14,6 +14,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 main {
@@ -35,7 +36,8 @@ main {
 .row {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  column-gap: 20px;
+  row-gap: 80px;
 }
 
 ul li {
@@ -67,7 +69,11 @@ ul li {
 }
 
 .bg-red {
-  background-color: red;
+  background-color: #ff0000;
+}
+
+.bg-green {
+  background-color: #008000;
 }
 
 .discount {
@@ -79,20 +85,20 @@ ul li {
   bottom: 50px;
 }
 
-
-
-
-
-
-
-.b-black {
-  border: 1px solid black;
+.eco {
+  padding: 5px 8px;
+  font-size: 0.7em;
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  right: 257px;
 }
 
-.h-500 {
-  height: 500px;
-}
-
-.bg-blue {
-  background-color: blue;
+.eco-alone {
+  padding: 5px 8px;
+  font-size: 0.7em;
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
 }
